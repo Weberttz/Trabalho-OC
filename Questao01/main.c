@@ -36,9 +36,9 @@ int main() {
     printf("Digite n: ");
     scanf("%d%*c", &n);
     
-    A = (int*) malloc(n*sizeof(int));
-    B = (int*) malloc(n*sizeof(int));
-    C = (int*) malloc((n+1)*sizeof(int));
+    A = malloc(n*sizeof(int));
+    B = malloc(n*sizeof(int));
+    C = malloc((n+1)*sizeof(int));
     
     printf("Digite o primeiro número: ");
     scanf("%d", &sA);
