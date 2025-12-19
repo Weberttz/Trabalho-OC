@@ -47,7 +47,7 @@ void imprime_binario(int *C, int n) {
 
 int main() {
     int n;
-    printf("Digite o valor de n (número de digitos BCD): ");
+    printf("Digite o valor de n (numero de digitos BCD): ");
     scanf("%d", &n);
 
     int total_bits = 4 * n;

@@ -90,7 +90,7 @@ void binario_para_hex(int *bin, char *hex, int n) {
 
 int main() {
     int n;
-    printf("Digite o numero de dígitos hexadecimais (n): ");
+    printf("Digite o numero de digitos hexadecimais (n): ");
     scanf("%d", &n);
     
     char *hexA = (char *)malloc((n + 1) * sizeof(char));
@@ -103,7 +103,7 @@ int main() {
     scanf("%s", hexB);
     
     if (strlen(hexA) != n || strlen(hexB) != n) {
-        printf("ERRO: Os números devem ter exatamente %d digitos hexadecimais.\n", n);
+        printf("ERRO: Os numeros devem ter exatamente %d digitos hexadecimais.\n", n);
         free(hexA);
         free(hexB);
         return 1;
